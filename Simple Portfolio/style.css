@@ -1,0 +1,303 @@
+/*Kode Mono*/
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Open+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*Lato*/
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+/*Rubik*/
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+
+   background-color: black;
+}
+
+:root {
+
+    --Headings-color : #686b69;
+    --details-color:#a8a8a8;
+
+}
+
+header {
+
+    background-color:#141414;
+    position: fixed;
+    width: 100%;
+    margin-top: -50px;
+    border-radius: 25px;
+
+}
+
+#nav-headings {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 400px 35px 400px;
+    font-family:Rubik;
+}
+
+#nav-headings li a {
+
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+#nav-headings li a:hover {
+
+    background-color: grey;
+    border-radius: 0.3rem;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+#about {
+
+    margin: 50px 100px 0px 100px;
+    padding: 75px 300px 75px 300px;
+    background-color: #1c1c1b;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+}
+
+
+.mypng {
+
+    height: 20rem;
+    width: 20rem;
+    border-radius: 150%;
+    margin-top: -70px;
+    padding: 70px;
+    margin-left: -74px;
+}
+
+#hi-name {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family:Lato ;
+    color:var(--Headings-color);
+}
+
+#img-h1 {
+
+    display:flex ;
+}
+
+#living {
+
+    margin-top: 50px;
+    letter-spacing: 1px;
+    margin-left: -25px;
+    color: white;
+}
+
+#about-p {
+
+    margin-top: -35px;
+    font-family:Rubik ;
+    color: #a8a8a8;
+}
+
+.division {
+
+    display: flex;
+}
+
+.division h4 {
+
+    margin-right: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+.division p {
+
+    margin-top: 15px;
+}
+
+.qulifications {
+
+    margin: 50px 100px 0px 100px;
+    padding: 75px 300px 75px 300px;
+    font-family: Rubik ;
+    color: var(--details-color);
+    background-color:#1c1c1b;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+
+#qualifications {
+
+    margin-top: -80px;
+    color: var(--Headings-color);
+    font-family: Lato;
+    padding-top: 90px;
+}
+
+#scl {
+
+    margin-top: 3px;
+}
+
+.qulifications table {
+
+    margin-top: 25px;
+}
+
+table, th, td {
+
+    border: 3px solid white;
+}
+
+table {
+
+    margin-left: 100px;
+    align-items: center;
+    color: white;
+}
+
+th {
+
+    width: 100px;
+    height: 50px;
+}
+
+tr {
+
+   width: 100px;
+   height: 40px; 
+}
+
+td {
+
+    padding: 15px;
+}
+
+.year {
+
+    margin-left: 360px;
+    margin-top: 10px;
+}
+
+.online-courses {
+
+    margin-top: 15px;
+    font-family: Rubik;
+    color: var(--details-color);
+}
+
+b {
+
+    color: white;
+    
+}
+
+#skills {
+
+    margin: 50px 100px 0px 100px;
+    padding: 75px 300px 75px 300px;
+    background-color: #1c1c1b;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+
+}
+
+.skills {
+
+    margin-bottom: 25px;
+    color:var(--Headings-color) ;
+    font-family: Lato;
+}
+
+.ul {
+
+    display:flex ;
+
+}
+
+.ul li {
+
+    padding: 10px;
+    color: var(--details-color);
+    font-family: Rubik ;
+}
+
+#contact-me {
+
+    margin: 50px 100px 0px 100px;
+    padding: 75px 300px 75px 300px;
+    background-color: #1c1c1b;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    color: var(--details-color);
+}
+
+#contact-me .online .i-tag {
+
+    color: var(--details-color);
+}
+
+#contact-me h1 {
+
+    margin-bottom: 30px;
+}
+
+.all-things {
+
+    display: flex;
+}
+
+.normal {
+
+    margin-right: 50px;
+}
+
+.normal p {
+
+    margin: 25px;
+}
+
+.online {
+
+    margin-top: 30px;
+}
+
+.online i {
+
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: var(--details-color);
+}
+
+.online p {
+
+    font-weight: bold;
+}
